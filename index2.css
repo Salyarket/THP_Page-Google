@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Roboto&display=swap');
+body { 
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 92px;
+    width: auto;
+}
+
+.search {
+border: 1px solid grey;
+border-radius: 30px;
+display: flex;
+align-items: center;
+justify-content:center;
+width: fit-content;
+}
+
+.search input {
+    width: 300px;
+    padding: 10px;
+    }
+
+.footer{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+
